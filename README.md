@@ -1,4 +1,4 @@
-# Indecision App
+# Expensify App
 
 Studying React, Webpack, SASS and Babel
 
@@ -14,8 +14,4 @@ Studying React, Webpack, SASS and Babel
     `yarn run dev-server`
 
 ---
-
-## Screenshot of the application
-![alt text](./public/images/Indecision-App.png)
-
---- 
+ 
