@@ -1,0 +1,54 @@
+{
+  "dependencies": {
+    "@babel/cli": "7.23.0",
+    "@babel/core": "7.23.3",
+    "@babel/plugin-transform-class-properties": "7.23.3",
+    "@babel/plugin-transform-object-rest-spread": "^7.23.4",
+    "@babel/preset-env": "7.10.2",
+    "@babel/preset-react": "7.10.1",
+    "babel-loader": "8.3.0",
+    "css-loader": "3.6.0",
+    "gh-pages": "6.0.0",
+    "live-server": "1.2.1",
+    "moment": "2.18.1",
+    "normalize.css": "7.0.0",
+    "react": "16.0.0",
+    "react-addons-shallow-compare": "15.6.0",
+    "react-dates": "12.7.0",
+    "react-dom": "16.0.0",
+    "react-modal": "2.2.2",
+    "react-redux": "5.0.5",
+    "react-router-dom": "4.2.2",
+    "react-scripts": "5.0.1",
+    "redux": "3.7.2",
+    "sass": "1.69.5",
+    "sass-loader": "7.3.1",
+    "style-loader": "1.0.0",
+    "uuid": "3.1.0",
+    "validator": "8.0.0",
+    "webpack": "3.1.0",
+    "webpack-dev-server": "2.5.1"
+  },
+  "name": "expensify-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Felipe Bazzanella",
+  "license": "MIT",
+  "homepage": "",
+  "scripts": {
+    "serve": "live-server public/",
+    "build-babel": "babel src/app.js --out-file=public/app.js --presets=env,react --watch",
+    "build": "webpack",
+    "react-build": "react-scripts build",
+    "dev-server": "webpack-dev-server",
+    "predeploy": "yarn run react-build",
+    "deploy": "gh-pages -d build"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ]
+  }
+}
