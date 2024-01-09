@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.208042c4.css",
-    "main.js": "/static/js/main.a7e76e51.js",
-    "index.html": "/index.html",
-    "main.208042c4.css.map": "/static/css/main.208042c4.css.map",
-    "main.a7e76e51.js.map": "/static/js/main.a7e76e51.js.map"
+    "main.css": "/expensify-app/static/css/main.208042c4.css",
+    "main.js": "/expensify-app/static/js/main.a7e76e51.js",
+    "index.html": "/expensify-app/index.html",
+    "main.208042c4.css.map": "/expensify-app/static/css/main.208042c4.css.map",
+    "main.a7e76e51.js.map": "/expensify-app/static/js/main.a7e76e51.js.map"
   },
   "entrypoints": [
     "static/css/main.208042c4.css",
