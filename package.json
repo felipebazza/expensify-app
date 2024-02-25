@@ -9,6 +9,7 @@
     "babel-loader": "8.3.0",
     "css-loader": "3.6.0",
     "express": "4.18.2",
+    "firebase": "10.7.1",
     "gh-pages": "6.0.0",
     "mini-css-extract-plugin": "2.7.6",
     "moment": "2.18.1",
@@ -24,6 +25,8 @@
     "react-router-dom": "5.3.4",
     "react-scripts": "5.0.1",
     "redux": "3.7.2",
+    "redux-mock-store": "1.5.4",
+    "redux-thunk": "3.1.0",
     "sass": "1.69.5",
     "sass-loader": "7.3.1",
     "style-loader": "1.0.0",
@@ -33,6 +36,8 @@
     "webpack-cli": "5.1.4"
   },
   "devDependencies": {
+    "cross-env": "5.0.5",
+    "dotenv": "4.0.0",
     "enzyme": "3.0.0",
     "enzyme-adapter-react-16": "1.0.0",
     "enzyme-to-json": "3.0.1",
@@ -54,7 +59,7 @@
     "dev-server": "webpack-dev-server",
     "predeploy": "yarn run react-build",
     "deploy": "gh-pages -d build",
-    "test": "jest --config=jest.config.json",
+    "test": "cross-env NODE_ENV=test jest --config=jest.config.json",
     "start": "node server/server.js",
     "heroku-postbuild": "yarn run build:prod"
   },
