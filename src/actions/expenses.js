@@ -10,8 +10,7 @@ export const addExpense = (expense) => ({
  
 export const startAddExpense = (expenseData = {}) => {
     return (dispatch, getState) => {
-        // const uid = getState().auth.uid;
-        const uid = '123';
+        const uid = getState().auth.uid;
         
         // Setting up defaults
         const {
