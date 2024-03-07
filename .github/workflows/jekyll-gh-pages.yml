@@ -8,15 +8,6 @@ on:
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
-    inputs:
-      BRANCH:
-        description: 'Branch to use'
-        required: true
-        default: 'gh-pages'
-        type: choice
-        options:
-        - master
-        - gh-pages
 
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
@@ -44,7 +35,6 @@ jobs:
         with:
           source: ./
           destination: ./_site
-          BRANCH: ${{ inputs.BRANCH }}
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
 
@@ -67,5 +57,3 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
-        with:
-          BRANCH: ${{ inputs.BRANCH }}
