@@ -3,6 +3,7 @@ import { ref, remove, update, get, push } from 'firebase/database';
 import db from '../firebase/firebase';
  
 //ADD_EXPENSE
+
 export const addExpense = (expense) => ({
     type: 'ADD_EXPENSE',
     expense
