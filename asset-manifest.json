@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/expensify-app/static/css/main.208042c4.css",
-    "main.js": "/expensify-app/static/js/main.74973bfe.js",
+    "main.css": "/expensify-app/static/css/main.b3451917.css",
+    "main.js": "/expensify-app/static/js/main.3e60f2dd.js",
+    "static/media/bg.jpg": "/expensify-app/static/media/bg.b9f65c5d38a200d812df.jpg",
     "index.html": "/expensify-app/index.html",
-    "main.208042c4.css.map": "/expensify-app/static/css/main.208042c4.css.map",
-    "main.74973bfe.js.map": "/expensify-app/static/js/main.74973bfe.js.map"
+    "main.b3451917.css.map": "/expensify-app/static/css/main.b3451917.css.map",
+    "main.3e60f2dd.js.map": "/expensify-app/static/js/main.3e60f2dd.js.map"
   },
   "entrypoints": [
-    "static/css/main.208042c4.css",
-    "static/js/main.74973bfe.js"
+    "static/css/main.b3451917.css",
+    "static/js/main.3e60f2dd.js"
   ]
 }
