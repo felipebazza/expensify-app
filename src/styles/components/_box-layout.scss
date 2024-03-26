@@ -4,6 +4,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    // background: url('../../../public/images/bg.jpg') no-repeat; // For deployment purposes
     background: url('/images/bg.jpg') no-repeat;
     background-size: cover;
 }
