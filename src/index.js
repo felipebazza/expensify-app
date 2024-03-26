@@ -41,6 +41,6 @@ onAuthStateChanged(auth, (user) => {
     } else {
         store.dispatch(logout());
         renderApp();
-        history.push('/');
+        history.push('/expensify-app/');
     }
 });
