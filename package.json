@@ -7,6 +7,7 @@
     "@babel/preset-env": "7.10.2",
     "@babel/preset-react": "7.10.1",
     "babel-loader": "8.3.0",
+    "babel-polyfill": "6.26.0",
     "css-loader": "3.6.0",
     "express": "4.18.2",
     "firebase": "10.7.1",

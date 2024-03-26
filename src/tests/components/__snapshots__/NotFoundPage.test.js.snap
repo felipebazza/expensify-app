@@ -4,7 +4,7 @@ exports[`should render NotFoundPage correctly 1`] = `
 <div>
   404 - 
   <Link
-    to="/"
+    to="/expensify-app/"
   >
     Go home
   </Link>
